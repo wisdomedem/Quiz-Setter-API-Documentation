@@ -1,7 +1,3 @@
-Here's a comprehensive GitHub API documentation for your Quiz Setter Question Generator API, including detailed instructions for uploading a PDF file using Postman.
-
----
-
 # Quiz Setter Question Generator API Documentation
 
 **Base URL**: `https://quiz-setter.onrender.com`
@@ -38,7 +34,6 @@ Welcome message for the Quiz Setter API.
 }
 ```
 
----
 
 ## 2. Upload PDF File
 
@@ -90,7 +85,7 @@ Upload a PDF file to extract text and generate multiple-choice questions.
 }
 ```
 
----
+
 
 ## 3. Retrieve Questions
 
@@ -119,7 +114,7 @@ Retrieve the generated multiple-choice questions stored in the session.
 }
 ```
 
----
+
 
 ## 4. Submit Answers
 
@@ -173,7 +168,7 @@ Submit answers for evaluation and receive results.
 }
 ```
 
----
+
 
 ## 5. Retrieve Results
 
@@ -209,7 +204,7 @@ Retrieve the evaluation results stored in the session.
 }
 ```
 
----
+
 
 ## 6. Error Handling
 
@@ -217,7 +212,7 @@ The API provides various error messages for different scenarios:
 - If a PDF file is not uploaded, it returns a **400 Bad Request** with an appropriate error message.
 - If there is an issue generating questions or saving to the database, it returns a **500 Internal Server Error** with details about the error.
 
----
+
 
 ## 7. Postman Instructions
 
