@@ -66,7 +66,6 @@ Upload a PDF file to extract text and generate multiple-choice questions.
             "option_D": "Madrid",
             "correct_answer": "option_A"
         },
-        ...
     ]
 }
 ```
@@ -109,7 +108,6 @@ Retrieve the generated multiple-choice questions stored in the session.
             "option_D": "Madrid",
             "correct_answer": "option_A"
         },
-        ...
     ]
 }
 ```
@@ -138,7 +136,6 @@ Submit answers for evaluation and receive results.
             "question_id": "question_0",
             "selected_option": "option_A"
         },
-        ...
     ]
 }
 ```
@@ -163,7 +160,6 @@ Submit answers for evaluation and receive results.
             },
             "is_correct": true
         },
-        ...
     ]
 }
 ```
@@ -199,7 +195,6 @@ Retrieve the evaluation results stored in the session.
             },
             "is_correct": true
         },
-        ...
     ]
 }
 ```
