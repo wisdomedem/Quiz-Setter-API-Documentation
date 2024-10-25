@@ -55,8 +55,8 @@ Upload a PDF file to extract text and generate multiple-choice questions.
   - **Description**: The PDF file containing the text for question generation.
  
 -  **Key**: `number_of_questions`
-  - **Type**: `Text`
-  - **Description**: Set the number of questions you want to generate, e.g., 5)
+   - **Type**: `Text`
+   - **Description**: Set the number of questions you want to generate, e.g., 5
 
 ### Response
 ```json
